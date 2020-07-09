@@ -1,0 +1,99 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(7, 40, 195, 0.8);
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.Find {
+    width: 360px;
+    padding: 5% 0 0;
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form {
+    position: relative;
+    background-color: rgba(7, 40, 195, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #ffffff;
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.8em;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    color: white;
+    position: relative;
+    top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 75%;
+    background: rgba(7, 40, 195, 0.8);
+    text-align: left;
+    border: 10px solid #4caf50;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 1px inset cyan;
+    background: #4caf50;
+    max-width: 200px;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover, button:active {
+    background: #43A047;
+}
+
+img {
+    max-width: 30px;
+    max-height: 30px;
+}
